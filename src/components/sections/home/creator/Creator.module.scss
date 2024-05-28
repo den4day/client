@@ -1,0 +1,107 @@
+@import '../../../../scss/variables';
+
+.container {
+	width: 1050px;
+	margin: 0px auto;
+}
+
+.creator {
+	padding: 80px 0px;
+
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin-bottom: 60px;
+	}
+
+	&__title {
+		margin-bottom: 10px;
+		font-size: 38px;
+		font-weight: 600;
+		line-height: 120%;
+	}
+
+	&__text {
+		font-size: 22px;
+		line-height: 160%;
+		font-weight: 400;
+	}
+
+	&__button {
+		display: flex;
+		align-items: center;
+		width: fit-content;
+		height: fit-content;
+		padding: 19px 50px;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 140%;
+		border: 2px solid $purple;
+		border-radius: 20px;
+
+		&Text {
+			margin-left: 12px;
+		}
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 30px;
+	}
+
+	&__card {
+		padding: 20px;
+		background-color: $gray;
+		border-radius: 20px;
+
+		&Img {
+			display: flex;
+			margin-bottom: 20px;
+		}
+
+		&Number {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 12px;
+			// padding: 4px;
+			width: 30px;
+			height: 30px;
+			background-color: $backgroundColor;
+			border-radius: 50px;
+			line-height: 140%;
+			color: $darkGray;
+		}
+
+		&Avatar {
+			border-radius: 100px;
+		}
+
+		&Name {
+			margin-bottom: 5px;
+			font-size: 22px;
+			text-align: center;
+			line-height: 140%;
+			font-weight: 700;
+		}
+
+		&Text {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&Total {
+			margin-right: 10px;
+			color: $darkGray;
+			line-height: 140%;
+		}
+
+		&Price {
+			line-height: 140%;
+			font-weight: 400;
+		}
+	}
+}

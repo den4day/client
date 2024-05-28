@@ -1,0 +1,104 @@
+@import '../../../../scss/variables';
+
+.container {
+	width: 1050px;
+	margin: 0px auto;
+}
+
+.hero {
+	padding: 80px 0px;
+	font-weight: 400;
+
+	&__inner {
+		display: flex;
+	}
+
+	&__info {
+		max-width: 510px;
+	}
+
+	&__title {
+		font-size: 67px;
+		font-weight: 600;
+		line-height: 110%;
+		margin-bottom: 20px;
+	}
+
+	&__description {
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 160%;
+		margin-bottom: 30px;
+	}
+
+	&__button {
+		display: flex;
+		align-items: center;
+		width: fit-content;
+		padding: 19px 50px;
+		margin-bottom: 30px;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 140%;
+		background-color: $purple;
+		border-radius: 20px;
+
+		&Text {
+			margin-left: 12px;
+		}
+	}
+
+	&__stats {
+		display: flex;
+		justify-content: space-between;
+
+		&Col {
+			min-width: 150px;
+		}
+
+		&Title {
+			font-size: 28px;
+			font-weight: 700;
+			line-height: 140%;
+		}
+
+		&Text {
+			font-size: 24px;
+			// font-weight: 700;
+			line-height: 160%;
+		}
+	}
+
+	&__nft {
+		background-color: $gray;
+		border-radius: 20px;
+		padding-bottom: 22px;
+		height: fit-content;
+
+		&Img {
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+			margin-bottom: 22px;
+		}
+
+		&Title {
+			font-size: 22px;
+			font-weight: 600;
+			line-height: 140%;
+			padding: 0px 20px;
+			margin-bottom: 10px;
+		}
+
+		&Icon {
+			border-radius: 50px;
+			margin-right: 12px;
+		}
+
+		&Creator {
+			display: flex;
+			align-items: center;
+			padding: 0px 20px;
+			line-height: 140%;
+		}
+	}
+}

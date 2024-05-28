@@ -1,0 +1,97 @@
+@import '../../../../scss/variables';
+
+.container {
+	width: 1050px;
+	margin: 0px auto;
+}
+
+.mushrooms {
+	padding: 360px 0px 60px 0px;
+	background-color: $backgroundColor;
+	background: linear-gradient(to top, $purple 0%, rgba(43, 43, 43, 0)),
+		url('/img/mushrooms.png') no-repeat center / cover;
+
+	&__inner {
+	}
+
+	&__author {
+		display: flex;
+		align-items: center;
+		width: fit-content;
+		padding: 10px 20px;
+		background-color: $gray;
+		border-radius: 20px;
+		margin-bottom: 30px;
+	}
+
+	&__img {
+		margin-right: 12px;
+		border-radius: 50px;
+	}
+
+	&__title {
+		font-size: 51px;
+		line-height: 110%;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+
+	&__info {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		width: fit-content;
+		padding: 20px 50px;
+		font-size: 16px;
+		font-weight: 600;
+		color: $backgroundColor;
+		background-color: $white;
+		border-radius: 20px;
+
+		&Icon {
+			margin-right: 12px;
+		}
+	}
+
+	&__timer {
+		padding: 30px;
+		background-color: rgba(59, 59, 59, 50%);
+		border-radius: 20px;
+		line-height: 110%;
+		font-size: 12px;
+
+		&Title {
+			margin-bottom: 10px;
+		}
+
+		&Time {
+			display: flex;
+		}
+
+		&Num {
+			font-size: 38px;
+			font-weight: 700;
+			line-height: 120%;
+			margin-bottom: 5px;
+		}
+
+		&Col {
+			margin-right: 10px;
+
+			&:last-child {
+				margin-right: 0px;
+			}
+		}
+
+		&Separator {
+			margin-right: 10px;
+			font-size: 28px;
+			line-height: 140%;
+			font-weight: 700;
+		}
+	}
+}
