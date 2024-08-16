@@ -1,1 +1,1 @@
-<h1>NFT Marketplace on NextJS</h1>
+<h3>NFT Marketplace on NextJS</h3>
